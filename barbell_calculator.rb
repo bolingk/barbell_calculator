@@ -13,12 +13,12 @@ def calc
  
   if weight % 10 == 0
     bar_less = weight - bar_weight + 5
-    puts "That weight is not possible with our current setup"
+    puts "Sorry! We don't have 2.5lb plates to configure this weight"
     puts "Let me bump it up 5 lbs to #{weight + 5} lbs"
-    puts "For a weight of #{weight + 5} lbs you will need (on each side):"
+    puts "For a weight of #{weight + 5} lbs load the following on each side:"
   else
     bar_less = weight - bar_weight
-    puts "For a weight of #{weight} lbs you will need (on each side):"
+    puts "For a weight of #{weight} lbs load the following on each side:"
   end
 
 
